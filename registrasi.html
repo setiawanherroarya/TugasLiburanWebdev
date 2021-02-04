@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registrasi</title>
+	<style type="text/css">
+		*{
+			padding: 0px;
+			margin: 0px;
+			font-family: calibri;
+		}
+
+		body{
+			background-color: #e5e5e5;
+		}
+
+		.header {
+			width: 1364px;
+			height: 60px;
+			background-color: white;
+			position: fixed;
+		}
+
+		.header img{
+			margin-left: 580px;
+			margin-top: 10.5px; 
+		}	
+
+		.block{
+			height: 60px;
+		}
+
+		.content{
+			height: 607px;
+			display: flex;
+		}
+
+		.text{
+			width: 50%;
+		}
+
+		.form{
+			width: 50%;
+		}
+
+		h1{
+			
+			font-size: 50px;
+			padding-top: 220px;
+			padding-left: 85px;
+		}
+
+		p{
+	
+			font-size: 20px;
+			font-weight: bold;
+			padding-left: 85px;
+		}
+
+		form{
+			margin-top: 110px;
+			margin-left: 100px;
+		}
+
+		input{
+			font-size: 20px;
+			padding: 2px 8px;
+			margin-top: 5px;
+			text-align: left;
+		}
+
+		h2{
+			margin-top: 10px;
+		}
+
+		.link{
+			margin-top: 10px;
+			margin-left: 10px;
+		}
+
+		.link a{
+			text-decoration: none;
+			font-size: 20px;
+			border: 1px solid gray;
+			padding: 1px 3px;
+			background-color: gray;
+			color: white;
+			font-weight: bold;
+		}
+
+		.link a:hover{
+			color: black;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		<img src="logo.png" width="165px">
+	</div>
+	<div class="block"></div>
+	<div class="link">
+		<a href="BLOG.html">Back</a>
+	</div>
+	<div class="content">
+		<div class="text">
+			<h1>Registrasi Now</h1>
+			<p>To get the latest and most complete news every day</p>
+		</div>
+		<div class="form">
+			<form>
+				<h2>Name</h2>
+				<div class="name">
+					<input type="text" name="firstnama" placeholder="First Name">
+					<input type="text" name="lastname" placeholder="Last Name">
+				</div>
+				<h2>Email</h2><input type="Email" name="email" placeholder="infoworld@gmail.com" style="width: 436px;">
+				<h2>Phone Number</h2><input type="Number" name="phone" placeholder="+00########" style="width: 436px;">
+				<h2>Country</h2><input type="text" name="country" placeholder="Vrindavan" style="width: 436px;">
+				<h2>Date Of Birth</h2><input type="Date" name="date">
+				<br>
+				<input type="submit" name="submit" value="Submit" style="margin-top: 20px">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
